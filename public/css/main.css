@@ -1,0 +1,90 @@
+.background {
+	width: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+nav {
+	background: #0e203d;
+}
+
+.logo-header {
+	width: 100%;
+	max-width: 200px;
+	margin-top: 8px;
+}
+
+#particles-js { 
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #131525;
+  /*background-image: url('../images/logo-2018w.png');*/
+  background-size: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.landing-logo{
+	top: 40%
+	margin: auto;
+}
+.landing-img{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translateX(-50%);
+	/*margin: auto;*/
+	width: 60%;
+}
+@media only screen and (max-width: 600px){
+	.landing-img {
+		width: 90%;
+	}
+}
+
+canvas {
+	height: 50%;
+}
+
+.landing-h1 {
+	color: white;
+	margin: 35% auto;
+}
+
+.page-footer{
+    background: transparent;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-footer ul li {
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 20px;
+
+}
+
+.page-footer ul li a {
+	color: #dcdee2;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	/*font-size: 1em;*/
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+	text-decoration: none;
+	transition: border 1s;
+}
+
+.page-footer ul li a:hover {
+	color: #fff;
+	border-bottom: 2px solid #dcdee2;
+}
