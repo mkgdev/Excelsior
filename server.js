@@ -24,7 +24,7 @@ app.get('/',function(req,res)
 app.get('/events',function(req,res)
     {
 
-        res.send('Events page')
+        res.render('events');
     }
 
 );
@@ -40,10 +40,10 @@ app.get('/sponsors',function(req,res)
 
 
 //Team page
-app.get('/teams',function(req,res)
+app.get('/team',function(req,res)
     {
 
-        res.send('team page');
+        res.render('team');
     }
 
 );
