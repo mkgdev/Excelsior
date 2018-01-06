@@ -69,7 +69,7 @@ app.get('/team',function(req,res)
 app.get('/gallery',function(req,res)
     {
 
-        res.send('gallery page');
+        res.render('gallery');
     }
 
 
