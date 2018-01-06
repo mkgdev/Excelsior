@@ -1,6 +1,22 @@
 var express = require('express');
 var app     = express();
 var bodyParser = require('body-parser');
+var GoogleSpreadSheet = require('google-spreadsheet');
+var creds = require('./client/secret_client.json');
+
+var doc = new GoogleSpreadSheet('1DHjj65IDsfXASc41ePe6DHJY2zHNPHIcoj5P1q0guY0');
+
+// Authenticate with the Google Spreadsheets API.
+// doc.useServiceAccountAuth(creds, function (err) {
+//
+//     // Get all of the rows from the spreadsheet.
+//
+//     doc.addRow(1, { Username: 'Agnew', Password: 'Samuel' }, function(err) {
+//         if(err) {
+//             console.log(err);
+//         }
+//     });
+// });
 
 
 app.set("view engine", "ejs");
@@ -71,6 +87,23 @@ app.get('/contact',function(req,res) {
 
     res.send('contact page');
 });
+
+//****************
+// Registration Routes
+//********************
+
+app.get('/register',function(req,res)
+    {
+
+        res.render('register/register1.ejs');
+    }
+
+
+);
+
+
+
+//***********************
 
 
 
