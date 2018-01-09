@@ -88,7 +88,7 @@ app.get('/about',function(req,res) {
 //Contact page
 app.get('/contact',function(req,res) {
 
-    res.send('contact page');
+    res.render("contact");
 });
 
 //****************
