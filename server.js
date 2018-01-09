@@ -114,7 +114,7 @@ app.get('/register',function(req,res)
 
 //**************************
 
-app.listen(process.env.PORT, process.env.IP,function(req,res)
+app.listen(3000,function(req,res)
     {
 
         console.log('serving starting on port 3000')
