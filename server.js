@@ -305,7 +305,7 @@ app.post('/mockstock',function(req,res)
 
 //**************************
 
-app.listen(8000,function(req,res)
+app.listen(process.env.PORT||8000,function(req,res)
     {
 
         console.log('serving starting on port 3000')
