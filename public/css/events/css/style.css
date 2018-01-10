@@ -11,9 +11,12 @@ body {
   font-size: 17px;
   font-weight: 400;
   /*background-color: #eee;*/
-  background: #D3CCE3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.95)),url("/images/all.jpg");
+  	-webkit-background-size:cover;
+  	-moz-background-size:cover;
+  	background-size:cover;
+  	-o-background-size:cover;
+  	background-attachment: fixed;
 
 }
 
