@@ -112,6 +112,7 @@ a:hover,a:focus {
 		display:inline-block;
 	}
 }
+
 .intro {
 	display:table;
 	width:100%;
@@ -119,29 +120,32 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	/*background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('http://unsplash.it/1600/1400?random=9'); */
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.95)),url("../images/all.jpg");
+	background: none;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
 	-o-background-size:cover;
 }
+
 .intro .intro-body {
 	display:table-cell;
 	vertical-align:middle;
 }
-.intro .intro-body .brand-heading {
+
+.intro .intro-body .heading {
 	font-size:40px;
 }
+
 .intro .intro-body .intro-text {
 	font-size:18px;
 }
+
 @media(min-width:768px) {
 	.intro {
 		height:100%;
 		padding:0;
 	}
-	.intro .intro-body .brand-heading {
+	.intro .intro-body .heading {
 		font-size:60px;
 		margin-top:90px;
 		margin-bottom:20px;
@@ -156,6 +160,7 @@ a:hover,a:focus {
 			letter-spacing:3px;
 	}
 }
+
 .btn-circle {
 	width:50px;
 	height:50px;
@@ -447,33 +452,3 @@ section {
 	outline: none;
 }
 
-
-
-.social-icon {
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin-top: 1em;
-
-}
-.social-icon a {
-    font-size: 1em;
-    color: #fff;
-    margin:0 0.2em;
-    display: inline-block;
-    -webkit-transition: .5s all;
-    -moz-transition: .5s all;
-	-o-transition: .5s all;
-	-ms-transition: .5s all;
-    transition: .5s all;
-    width: 30px;
-    height: 30px;
-    line-height: 2.1em;
-    border: 1px dashed transparent;
-    text-align: center;
-}
-.social-icon a:hover {
-	border-color: #fff;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-    border-radius: 50%;
