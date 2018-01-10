@@ -48,7 +48,7 @@ app.get('/events',function(req,res)
 app.get('/sponsors',function(req,res)
     {
 
-        res.send('Sponsors page')
+        res.render("coming_soon");
     }
 
 );
