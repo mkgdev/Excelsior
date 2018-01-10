@@ -1,7 +1,14 @@
 .background {
 	width: 100%;
 }
-
+body {
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.95)),url("../images/all.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	background-attachment: fixed;
+}
 html, body {
 	height: 100%;
 }
@@ -62,7 +69,51 @@ canvas {
 	margin: 35% auto;
 }
 
+.page-footer-h{
+    background: transparent;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-footer-h p span {
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 15px;
+
+}
+
+@media (max-width: 600px){
+	.page-footer-h p span {
+		padding: 0 20px 5px 20px;
+	}
+}
+
+.page-footer-h p span a {
+	color: #dcdee2;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	/*font-size: 1em;*/
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+	text-decoration: none;
+	transition: border 1s;
+}
+
+.page-footer-h p span a:hover {
+	color: #fff;
+	border-bottom: 2px solid #dcdee2;
+}
+
 .page-footer{
+	-webkit-box-shadow: inset 0px 141px 202px 24px rgba(0,0,0,0.52);
+    -moz-box-shadow: inset 0px 141px 202px 24px rgba(0,0,0,0.52);
+    box-shadow: inset 0px 141px 202px 24px rgba(0,0,0,0.52);
     background: transparent;
     overflow: hidden;
     position: fixed;
@@ -174,6 +225,7 @@ canvas {
 }
 
 .jumbotron-about {
+	color: #fff;
 	margin-top: 20px;
 	/*margin-bottom: 150px;*/
 	z-index: 1;
