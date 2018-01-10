@@ -8,6 +8,7 @@ html, body {
 
 nav {
 	background: #0e203d;
+	z-index: 1;
 }
 .nav-link a {
 	float: right;
@@ -123,7 +124,8 @@ canvas {
 
 @media (max-width: 600px){
 	.page-footer-nh p span {
-		padding: 0 20px 5px 20px;
+		padding: 5px 20px 5px 20px;
+		margin-top: 5px;
 	}
 }
 
@@ -184,6 +186,11 @@ canvas {
 }
 
 .about-img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.google-form{
 	width: 100%;
 	margin-bottom: 5px;
 }

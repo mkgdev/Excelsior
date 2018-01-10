@@ -85,6 +85,23 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
 	color: #6c7279;
+	background-color: black;
+}
+.srlogo{
+	
+	width:4%;
+	
+
+}
+.page-footer{
+	background: transparent;
+    overflow: hidden;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
 }
 ul, ol {
 	margin: 0;
@@ -94,7 +111,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .no-padding {
 	padding: 0;
@@ -134,10 +151,10 @@ ul li {
 	letter-spacing:2px;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #0e203d;
 }
 #header.fixed a {
-	color: #000;
+	color: white;
 }
 #header.fixed .header-content {
 	border-bottom: 0;

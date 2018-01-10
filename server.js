@@ -6,7 +6,17 @@ var creds = require('./client/secret_client.json');
 
 var doc = new GoogleSpreadSheet('1DHjj65IDsfXASc41ePe6DHJY2zHNPHIcoj5P1q0guY0');
 
-
+// Authenticate with the Google Spreadsheets API.
+// doc.useServiceAccountAuth(creds, function (err) {
+//
+//     // Get all of the rows from the spreadsheet.
+//
+//     doc.addRow(1, { Username: 'Agnew', Password: 'Samuel' }, function(err) {
+//         if(err) {
+//             console.log(err);
+//         }
+//     });
+// });
 
 
 app.set("view engine", "ejs");
@@ -18,7 +28,10 @@ app.use(express.static(__dirname+'/public'));
 //*************************
 // Router configuration
 //***********************
-app.get('/',function(req,res)
+app.get('/', function(req,res){
+    res.redirect("/index");
+});
+app.get('/index',function(req,res)
     {
         res.render('index');
 
@@ -69,40 +82,27 @@ app.get('/gallery',function(req,res)
 
 app.get('/about',function(req,res) {
 
-    res.send('about page')
+    res.render("about");
 });
 
 //Contact page
 app.get('/contact',function(req,res) {
 
-    res.send('contact page');
+    res.render("contact");
 });
 
 //****************
 // Registration Routes
 //********************
 
-// app.post('/register',function(req,res)
-//     {
-//
-//         var data = req.body;
-//
-//         Authenticate with the Google Spreadsheets API.
-//         doc.useServiceAccountAuth(creds, function (err) {
-//
-//         // Get all of the rows from the spreadsheet.
-//
-//         doc.addRow(1, { Username: 'Agnew', Password: 'Samuel' }, function(err) {
-//             if(err) {
-//                 console.log(err);
-//             }
-//         });
-//     });
-//
-//     }
-//
-//
-// );
+app.get('/register',function(req,res)
+    {
+
+        res.render('register/register1.ejs');
+    }
+
+
+);
 
 
 
