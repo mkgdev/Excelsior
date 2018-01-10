@@ -271,19 +271,17 @@ blockquote {
   margin-bottom: -10px;
 }
 
-@media (min-width: 1200px){
-.container-events{
-    width: 958px !important;
-}
-}
-@media (min-width: 992px){
-    .container-events{
-        width: 777px !important;
-    }
-}
+/*@media (min-width: 1200px){*/
+/*.container-events{*/
+    /*width: 958px !important;*/
+/*}*/
+/*}*/
+/*@media (min-width: 992px){*/
+    /*.container-events{*/
+        /*width: 777px !important;*/
+    /*}*/
+/*}*/
 
-.events-sidebar{
 
-}
 
 /*.modal { width: 75% !important ; height: 75% !important ; }*/
