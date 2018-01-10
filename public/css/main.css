@@ -1,7 +1,14 @@
 .background {
 	width: 100%;
 }
-
+body {
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.95)),url("../images/all.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	background-attachment: fixed;
+}
 html, body {
 	height: 100%;
 }
@@ -174,6 +181,7 @@ canvas {
 }
 
 .jumbotron-about {
+	color: #fff;
 	margin-top: 20px;
 	/*margin-bottom: 150px;*/
 	z-index: 1;
