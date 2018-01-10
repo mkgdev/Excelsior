@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="84" lean-forward="false" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="347">
+              <caret line="313" column="2" lean-forward="true" selection-start-line="313" selection-start-column="2" selection-end-line="313" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/events.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="535" column="54" lean-forward="false" selection-start-line="535" selection-start-column="54" selection-end-line="535" selection-end-column="54" />
+              <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
               <folding>
                 <element signature="e#21467#21474#1#HTML" expanded="true" />
                 <element signature="e#23777#23784#1#HTML" expanded="true" />
@@ -99,8 +99,8 @@
         <option value="$PROJECT_DIR$/views/team.ejs" />
         <option value="$PROJECT_DIR$/public/css/events/js/scroll.js" />
         <option value="$PROJECT_DIR$/public/css/events/css/style.css" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/views/events.ejs" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -115,7 +115,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="613" />
     <option name="y" value="39" />
     <option name="width" value="651" />
@@ -251,15 +251,15 @@
       <workItem from="1515520608445" duration="1139000" />
       <workItem from="1515521773747" duration="1991000" />
       <workItem from="1515580976360" duration="1295000" />
-      <workItem from="1515582477171" duration="7037000" />
+      <workItem from="1515582477171" duration="9257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41224000" />
+    <option name="totallyTimeSpent" value="43444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -650,18 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="84" lean-forward="false" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/events.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="535" column="54" lean-forward="false" selection-start-line="535" selection-start-column="54" selection-end-line="535" selection-end-column="54" />
+          <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
           <folding>
             <element signature="e#21467#21474#1#HTML" expanded="true" />
             <element signature="e#23777#23784#1#HTML" expanded="true" />
@@ -682,6 +674,14 @@
             <element signature="e#77242#77249#1#HTML" expanded="true" />
             <element signature="e#82083#82090#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="313" column="2" lean-forward="true" selection-start-line="313" selection-start-column="2" selection-end-line="313" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
