@@ -120,3 +120,13 @@
 .sticker-tiles li {
   margin: 0px;
 }
+
+@media (max-width:437px){
+  .sticker-tiles li a {
+
+    width:106px;
+    font-size:11px;
+
+  }
+
+}
