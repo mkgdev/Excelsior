@@ -85,7 +85,9 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
 	color: #6c7279;
-	background-color: black;
+	background: url("/images/all.jpg");
+	background-attachment: fixed;
+	background-size: cover;
 }
 .srlogo{
 	
@@ -150,6 +152,20 @@ ul li {
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
+
+@media screen and (max-width:500px){
+
+	#header .logo {
+		float: left;
+		font-size:14px;
+		font-weight:700;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		letter-spacing:2px;
+	}
+}
+
 #header.fixed {
 	background-color: #0e203d;
 }
@@ -327,19 +343,6 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
-
-.banner {
-    
-	background-image: url(../../../images/fest1.JPG);
-   background-size: contain;
-    background-attachment: fixed;
-	background-repeat: no-repeat;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	-webkit-background-size: contain;
-	
-	
-}
 
 .banner-text h1 {
 	color: #fff;
