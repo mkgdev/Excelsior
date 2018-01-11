@@ -226,7 +226,7 @@ canvas {
 
 .jumbotron-about {
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 100px;
 	/*margin-bottom: 150px;*/
 	z-index: 1;
 	background: transparent;
@@ -245,4 +245,9 @@ canvas {
 .google-form{
 	width: 100%;
 	margin-bottom: 5px;
+}
+
+.carousel-image {
+	height: 100%;
+	width: 100%;
 }
