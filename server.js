@@ -68,7 +68,7 @@ app.get('/team',function(req,res)
 app.get('/gallery',function(req,res)
     {
 
-        res.render('gallery');
+        res.render('gallery2');
     }
 
 
