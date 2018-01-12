@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/public/css/events/css/style1.css" afterPath="$PROJECT_DIR$/public/css/events/css/style1.css" />
-      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/events.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="1006" column="16" lean-forward="true" selection-start-line="1006" selection-start-column="16" selection-end-line="1006" selection-end-column="16" />
+            <state relative-caret-position="250">
+              <caret line="176" column="3" lean-forward="false" selection-start-line="176" selection-start-column="2" selection-end-line="176" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -118,6 +117,7 @@
       <find>register</find>
       <find>&lt;p&gt;</find>
       <find>&lt;/b&gt;</find>
+      <find>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</find>
     </findStrings>
     <replaceStrings>
       <replace>quidditch</replace>
@@ -146,8 +146,8 @@
         <option value="$PROJECT_DIR$/public/css/events/js/index1.js" />
         <option value="$PROJECT_DIR$/public/css/events/css/style2.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/public/css/events/css/style1.css" />
         <option value="$PROJECT_DIR$/views/events.ejs" />
+        <option value="$PROJECT_DIR$/public/css/events/css/style1.css" />
       </list>
     </option>
   </component>
@@ -315,7 +315,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73603000" />
+    <option name="totallyTimeSpent" value="74673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -693,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/events/js/index1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/gallery.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -717,10 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
+    <entry file="file://$PROJECT_DIR$/public/css/events/css/typer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="1006" column="16" lean-forward="true" selection-start-line="1006" selection-start-column="16" selection-end-line="1006" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -729,14 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="117" lean-forward="false" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/events/css/typer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -765,6 +749,22 @@
             <element signature="e#70204#70211#1#HTML" expanded="true" />
             <element signature="e#74963#74970#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/events/js/index1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="176" column="3" lean-forward="false" selection-start-line="176" selection-start-column="2" selection-end-line="176" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
