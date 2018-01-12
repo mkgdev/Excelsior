@@ -936,4 +936,9 @@ body, html {
   animation-name: rotateInDownRight;
 }
 
+
+.responsive {
+
+  text-align: center;
+}
 /* End animate.css*/
