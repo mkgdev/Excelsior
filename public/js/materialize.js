@@ -12,6 +12,8 @@ window.onload = function() {
   setTimeout(function(){ 
     
     $("#loader").fadeOut(1000);
+
+    $("#loader-ext").fadeOut(1000);
    }, 3000);
 
   
