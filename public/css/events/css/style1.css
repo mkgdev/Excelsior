@@ -1068,6 +1068,13 @@ body, html {
 text-align: center;
 }
 
+.event-info {
+  margin-left: 7%;
+}
+.event-info a {
+  margin-left : -5.5%;
+}
+
 .responsive .card-back p { color:#fff;}
 
 
