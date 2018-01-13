@@ -115,38 +115,69 @@ body, html {
   -webkit-transform: perspective(1000) rotateX(0deg);
   transform: perspective(1000) rotateX(0deg);
 }
+
+
+
+
 .content li:nth-child(1) .card-back, .content li:nth-child(18) .card-back {
-  background: #6b6b6b;
+  background: #00796b;
 }
 .content li:nth-child(2) .card-back {
-  background: #22cfda;
+  background: #43a047 ;
 }
 .content li:nth-child(3) .card-back {
-  background: #162b53;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(4) .card-back {
-  background: #ee2ca3;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(5) .card-back {
-  background: #d0ce06;
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(6) .card-back {
-  background: #7381a8;
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(7) .card-back {
-  background: #da222b;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(8) .card-back {
-  background: #f07938;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(9) .card-back {
-  background: #f07938;
+    background: #808080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(10) .card-back {
-  background: #f07938;
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(11) .card-back {
-  background: #f07938;
+    background: #FFA17F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .content li:nth-child(12) .card-back {
   background: #f07938;
@@ -166,9 +197,9 @@ body, html {
 .content li:nth-child(17) .card-back {
   background: #f07938;
 }
-.content li:nth-child(18) .card-back {
-  background: #f07938;
-}
+/*.content li:nth-child(18) .card-back {*/
+  /*background: #f07938;*/
+/*}*/
 .content li:first-child, .content li:last-child {
   /*background-color: #151515;*/
 }
@@ -936,4 +967,81 @@ body, html {
   animation-name: rotateInDownRight;
 }
 
+
+.responsive .card-back>a{
+
+    margin: 0 auto;
+}
 /* End animate.css*/
+
+.responsive .card-front h2{
+
+   font-weight: bold;
+
+
+}
+@media (max-width: 615px){
+
+    .responsive .card-front h2{
+
+        display: block;
+        text-align: center;
+        width:100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top : 53%
+
+
+    }
+
+
+}
+
+
+@media (min-width: 615px) {
+    .responsive .card-front h2{
+
+        display: block;
+        text-align: center;
+        width:100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top : 39%
+
+
+    }
+}
+
+
+@media (min-width: 870px) {
+
+    .responsive .card-front h2{
+
+        display: block;
+        text-align: center;
+        width:100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top : 24%
+
+
+    }
+}
+
+.event-info{
+
+    width:100%;
+    height: 78%;
+
+}
+
+.responsive .card-back {
+text-align: center;
+}
+
+.responsive .card-back p { color:#fff;}
+
+
+
+
+
