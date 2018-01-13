@@ -1,0 +1,9 @@
+.modal-header form {
+
+    width: 100%;
+}
+
+.modal-header form > button {
+
+    margin: 0 auto;
+}
