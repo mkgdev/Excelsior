@@ -2386,7 +2386,7 @@ samp {
   font-size: 1em;
 }
 
-/* Forms
+/* decodeas
    ========================================================================== */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
@@ -2420,7 +2420,7 @@ button {
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
+ * All other decodea control elements do not inherit `text-transform` values.
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
@@ -2634,7 +2634,7 @@ a {
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
-.z-depth-4, .modal {
+.z-depth-4, .modala {
   -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
           box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
 }
@@ -4393,7 +4393,7 @@ nava ul.left {
   float: left;
 }
 
-nava form {
+nava decodea {
   height: 100%;
 }
 
@@ -4453,35 +4453,35 @@ nava .input-field label.active i {
   }
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
-  font-weight: 100;
-}
+/*@font-face {*/
+  /*font-family: "Roboto";*/
+  /*src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");*/
+  /*font-weight: 100;*/
+/*}*/
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
-  font-weight: 300;
-}
+/*@font-face {*/
+  /*font-family: "Roboto";*/
+  /*src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");*/
+  /*font-weight: 300;*/
+/*}*/
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-}
+/*@font-face {*/
+  /*font-family: "Roboto";*/
+  /*src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");*/
+  /*font-weight: 400;*/
+/*}*/
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
-  font-weight: 500;
-}
+/*@font-face {*/
+  /*font-family: "Roboto";*/
+  /*src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");*/
+  /*font-weight: 500;*/
+/*}*/
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
-}
+/*@font-face {*/
+  /*font-family: "Roboto";*/
+  /*src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");*/
+  /*font-weight: 700;*/
+/*}*/
 
 a {
   text-decoration: none;
@@ -5657,7 +5657,7 @@ button.btn-floating {
   z-index: -1;
 }
 
-.modal {
+.modala {
   display: none;
   position: fixed;
   left: 0;
@@ -5673,24 +5673,24 @@ button.btn-floating {
 }
 
 @media only screen and (max-width: 992px) {
-  .modal {
+  .modala {
     width: 80%;
   }
 }
 
-.modal h1, .modal h2, .modal h3, .modal h4 {
+.modala h1, .modala h2, .modala h3, .modala h4 {
   margin-top: 0;
 }
 
-.modal .modal-content {
+.modala .modala-content {
   padding: 24px;
 }
 
-.modal .modal-close {
+.modala .modala-close {
   cursor: pointer;
 }
 
-.modal .modal-footer {
+.modala .modala-footer {
   border-radius: 0 0 2px 2px;
   background-color: #fafafa;
   padding: 4px 6px;
@@ -5699,11 +5699,11 @@ button.btn-floating {
   text-align: right;
 }
 
-.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
+.modala .modala-footer .btn, .modala .modala-footer .btn-large, .modala .modala-footer .btn-flat {
   margin: 6px 0;
 }
 
-.modal-overlay {
+.modala-overlay {
   position: fixed;
   z-index: 999;
   top: -25%;
@@ -5717,12 +5717,12 @@ button.btn-floating {
   will-change: opacity;
 }
 
-.modal.modal-fixed-footer {
+.modala.modala-fixed-footer {
   padding: 0;
   height: 70%;
 }
 
-.modal.modal-fixed-footer .modal-content {
+.modala.modala-fixed-footer .modala-content {
   position: absolute;
   height: calc(100% - 56px);
   max-height: 100%;
@@ -5730,13 +5730,13 @@ button.btn-floating {
   overflow-y: auto;
 }
 
-.modal.modal-fixed-footer .modal-footer {
+.modala.modala-fixed-footer .modala-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: 0;
 }
 
-.modal.bottom-sheet {
+.modala.bottom-sheet {
   top: auto;
   bottom: -100%;
   margin: 0;
@@ -5992,10 +5992,10 @@ button:focus {
   background-color: #2ab7a9;
 }
 
-label {
-  font-size: 0.8rem;
-  color: #9e9e9e;
-}
+/*label {*/
+  /*font-size: 0.8rem;*/
+  /*color: #9e9e9e;*/
+/*}*/
 
 /* Text Inputs + Textarea
    ========================================================================== */
@@ -6684,12 +6684,12 @@ textarea.materialize-textarea.validate + label:not(.label-icon).active {
 /* Checkboxes
    ========================================================================== */
 /* CUSTOM CSS CHECKBOXES */
-form p {
+decodea p {
   margin-bottom: 10px;
   text-align: left;
 }
 
-form p:last-child {
+decodea p:last-child {
   margin-bottom: 0;
 }
 
@@ -7707,7 +7707,7 @@ input[type=range]:focus::-ms-fill-upper {
  * We write out each animation in full (instead of separating animation-name,
  * animation-duration, etc.) because under the polyfill, Safari does not recognize those
  * specific properties properly, treats them as -webkit-animation, and overrides the
- * other animation rules. See https://github.com/Polymer/platform/issues/53.
+ * other animation rules. See https://github.com/Polymer/platdecodea/issues/53.
  */
 .active .spinner-layer.spinner-blue {
   /* durations: 4 * ARCTIME */
