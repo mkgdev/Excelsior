@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/public/css/events/css/style1.css" afterPath="$PROJECT_DIR$/public/css/events/css/style1.css" />
-      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
+      <change beforePath="$PROJECT_DIR$/public/css/events/css/style2.css" afterPath="$PROJECT_DIR$/public/css/events/css/style2.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/events.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="343" column="147" lean-forward="false" selection-start-line="343" selection-start-column="147" selection-end-line="343" selection-end-column="147" />
+            <state relative-caret-position="184">
+              <caret line="336" column="12" lean-forward="false" selection-start-line="336" selection-start-column="12" selection-end-line="338" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/events/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="1069" column="0" lean-forward="true" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
+            <state relative-caret-position="-2232">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,8 +130,8 @@
       <find>btn-success</find>
       <find>silicon</find>
       <find>laser</find>
-      <find>footer</find>
       <find>50%</find>
+      <find>footer</find>
       <find>.content li</find>
     </findStrings>
     <replaceStrings>
@@ -165,9 +165,9 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/css/materialize.css" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/css/events/css/style2.css" />
-        <option value="$PROJECT_DIR$/public/css/events/css/style1.css" />
         <option value="$PROJECT_DIR$/views/events.ejs" />
+        <option value="$PROJECT_DIR$/public/css/events/css/style1.css" />
+        <option value="$PROJECT_DIR$/public/css/events/css/style2.css" />
       </list>
     </option>
   </component>
@@ -332,12 +332,12 @@
       <workItem from="1515758293080" duration="2443000" />
       <workItem from="1515772355567" duration="820000" />
       <workItem from="1515835470129" duration="4638000" />
-      <workItem from="1515866691595" duration="3325000" />
+      <workItem from="1515866691595" duration="3828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95300000" />
+    <option name="totallyTimeSpent" value="95803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="419" y="179" width="1303" height="780" extended-state="6" />
@@ -700,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/events/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/events/css/typer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -726,18 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
+    <entry file="file://$PROJECT_DIR$/views/events.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="1069" column="0" lean-forward="true" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="336" column="12" lean-forward="false" selection-start-line="336" selection-start-column="12" selection-end-line="338" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/events.ejs">
+    <entry file="file://$PROJECT_DIR$/public/css/events/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="343" column="147" lean-forward="false" selection-start-line="343" selection-start-column="147" selection-end-line="343" selection-end-column="147" />
+        <state relative-caret-position="-2232">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/events/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
