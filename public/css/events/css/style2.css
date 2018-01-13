@@ -7,3 +7,10 @@
 
     margin: 0 auto;
 }
+
+ol {
+    margin-left:4%;
+}
+ol li {
+    list-style-type: disc;
+}
