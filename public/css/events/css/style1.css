@@ -325,7 +325,7 @@ body, html {
     font-size: 13px;
   }
   .content li {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-height: 450px) {
@@ -1018,7 +1018,7 @@ body, html {
         width:100%;
         height: 100%;
         margin: 0 auto;
-        margin-top : 53%
+        margin-top : 33%
 
 
     }
@@ -1066,13 +1066,6 @@ body, html {
 
 .responsive .card-back {
 text-align: center;
-}
-
-.event-info {
-  margin-left: 7%;
-}
-.event-info a {
-  margin-left : -5.5%;
 }
 
 .responsive .card-back p { color:#fff;}
