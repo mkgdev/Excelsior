@@ -81,6 +81,37 @@ canvas {
 	margin: 35% auto;
 }
 
+.countdowntimer {
+  color: #dcdee2;
+  text-align: center;
+  position: relative;
+    z-index: 1;
+}
+
+.countdowntimer h1 {
+  font-weight: normal;
+}
+
+.countdowntimer ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdowntimer ul li span {
+  display: block;
+  font-size: 4rem;
+}
+
+@media (max-width: 488px){
+	.countdowntimer ul li span {
+	  display: block;
+	  font-size: 2.5rem;
+	}
+}
+
 .page-footer-h{
     background: transparent;
     overflow: hidden;
@@ -101,9 +132,10 @@ canvas {
 }
 
 @media (max-width: 600px){
-	.page-footer-h p span {
+
+	/*.page-footer-h p span {
 		padding: 0 20px 5px 20px;
-	}
+	}*/
 }
 
 .page-footer-h p span {
@@ -264,26 +296,3 @@ canvas {
 	width: 100%;
 }
 
-.countdowntimer {
-  color: #dcdee2;
-  text-align: center;
-  position: relative;
-    z-index: 1;
-}
-
-.countdowntimer h1 {
-  font-weight: normal;
-}
-
-.countdowntimer ul li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-.countdowntimer ul li span {
-  display: block;
-  font-size: 4.5rem;
-}

@@ -124,7 +124,7 @@ const second = 1000,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('Mar 1, 2018 00:00:00').getTime(),
+let countDown = new Date('Feb 10, 2018 00:00:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
@@ -136,9 +136,13 @@ let countDown = new Date('Mar 1, 2018 00:00:00').getTime(),
         document.getElementById('seconds').innerHTML = Math.floor((distance % (minute)) / second);
       
       //do something later when date is reached
-      //if (distance < 0) {
-      //  clearInterval(x);
+      if (distance <= 0) {
+        document.getElementById('days').innerHTML = 0,
+        document.getElementById('hours').innerHTML = 0,
+        document.getElementById('minutes').innerHTML = 0,
+        document.getElementById('seconds').innerHTML = 0;
+       // clearInterval(x);
       //  'IT'S MY BIRTHDAY!;
-      //}
+      }
 
     }, second)
