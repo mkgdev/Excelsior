@@ -7,24 +7,20 @@ var creds = require('./client/secret_client.json');
 //*********************************************************************************
 // Events docs
 //***************************************************************************
-var roborace = new GoogleSpreadSheet('10F7fBLEx8R1SC-vnPwvmoPUzuzgA0aqdKoCEWOs1oJc');
-var robosoccer = new GoogleSpreadSheet('1K1mCBqxspSXDrJALEnYQDWnPmVbzAs7talwr2WkNJDs');
-var robowar = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var pullit = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var lfr = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var fast18 = new GoogleSpreadSheet('10F7fBLEx8R1SC-vnPwvmoPUzuzgA0aqdKoCEWOs1oJc');
+var datahack = new GoogleSpreadSheet('1K1mCBqxspSXDrJALEnYQDWnPmVbzAs7talwr2WkNJDs');
 var quidditch = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var crackCompany = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var quizzard = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var icart = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var codesaffari = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-
-var java = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var simulate = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
 var siliconvalley = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var socco = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var creativetalk = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var eureka = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
 var lazermaze = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var bombbarage = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var botzilla = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var robosoccer = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var lfr = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var codesafari = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+
+var quizzardz = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var crackCompany = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+
 var mockstock = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
 
 
@@ -111,17 +107,17 @@ app.get('/contact',function(req,res) {
 // Registration Routes
 //********************
 
-app.post('/roborace',function(req,res)
+app.post('/fast18',function(req,res)
     {
 
         var data = req.body;
 
         // Authenticate with the Google Spreadsheets API.
-    roborace.useServiceAccountAuth(creds, function (err) {
+    fast18.useServiceAccountAuth(creds, function (err) {
 
         // Get all of the rows from the spreadsheet.
 
-        roborace.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+        fast18.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
             if(err) {
                 throw err;
             }
@@ -129,6 +125,140 @@ app.post('/roborace',function(req,res)
         });
     });
 
+    }
+
+
+);
+
+app.post('/datahack',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        datahack.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            datahack.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+
+    }
+
+
+);
+
+app.post('/quidditch',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        quidditch.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            quidditch.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+
+    }
+
+
+);
+
+app.post('/simulate',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        simulate.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            simulate.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+    }
+
+
+);
+
+app.post('/siliconvalley',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        siliconvalley.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            siliconvalley.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+    }
+
+
+);
+
+app.post('/lazermaze',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        lazermaze.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            lazermaze.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+    }
+
+
+);
+
+app.post('/botzilla',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        botzilla.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            botzilla.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
     }
 
 
@@ -145,52 +275,6 @@ app.post('/robosoccer',function(req,res)
             // Get all of the rows from the spreadsheet.
 
             robosoccer.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-
-    }
-
-
-);
-
-app.post('/robowar',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        robowar.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            robowar.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-
-    }
-
-
-);
-
-app.post('/pullit',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        pullit.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            pullit.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
                 if(err) {
                     throw err;
                 }
@@ -224,17 +308,39 @@ app.post('/lfr',function(req,res)
 
 );
 
-app.post('/quidditch',function(req,res)
+app.post('/codesafari',function(req,res)
     {
 
         var data = req.body;
 
         // Authenticate with the Google Spreadsheets API.
-        quidditch.useServiceAccountAuth(creds, function (err) {
+        codesafari.useServiceAccountAuth(creds, function (err) {
 
             // Get all of the rows from the spreadsheet.
 
-            quidditch.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+            codesafari.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+    }
+
+
+);
+
+app.post('/quizzardz',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        quizzardz.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            quizzardz.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
                 if(err) {
                     throw err;
                 }
@@ -257,116 +363,6 @@ app.post('/crackCompany',function(req,res)
             // Get all of the rows from the spreadsheet.
 
             crackCompany.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-    }
-
-
-);
-
-app.post('/quizzard',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        quizzard.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            quizzard.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-    }
-
-
-);
-
-app.post('/icart',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        icart.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            icart.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-    }
-
-
-);
-
-app.post('/codesaffari',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        codesaffari.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            codesaffari.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-    }
-
-
-);
-
-app.post('/java',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        java.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            java.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
-                if(err) {
-                    throw err;
-                }
-                res.redirect('/events');
-            });
-        });
-    }
-
-
-);
-
-app.post('/siliconvalley',function(req,res)
-    {
-
-        var data = req.body;
-
-        // Authenticate with the Google Spreadsheets API.
-        siliconvalley.useServiceAccountAuth(creds, function (err) {
-
-            // Get all of the rows from the spreadsheet.
-
-            siliconvalley.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
                 if(err) {
                     throw err;
                 }

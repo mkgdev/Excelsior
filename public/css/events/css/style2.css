@@ -1,3 +1,10 @@
+html,body{
+
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
 .modal-header form {
 
     width: 100%;
@@ -6,4 +13,21 @@
 .modal-header form > button {
 
     margin: 0 auto;
+}
+
+ol {
+    margin-left:4%;
+}
+ol li {
+    list-style-type: disc;
+}
+
+
+.event-info a {
+
+    display: inline-block;
+    border-bottom: 1px solid #000abc;
+    padding: 0 2px;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
 }
