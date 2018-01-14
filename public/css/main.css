@@ -86,6 +86,7 @@ canvas {
   text-align: center;
   position: relative;
     z-index: 1;
+  font-size: 0.8em;
 }
 
 .countdowntimer h1 {
