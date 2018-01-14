@@ -106,7 +106,7 @@ canvas {
 	}
 }
 
-.page-footer-h p span a {
+.page-footer-h p span {
 	color: #dcdee2;
 	display: inline-block;
 	text-align: center;
@@ -117,10 +117,10 @@ canvas {
 	transition: border 1s;
 }
 
-.page-footer-h p span a:hover {
+/*.page-footer-h p span a:hover {
 	color: #fff;
 	border-bottom: 2px solid #dcdee2;
-}
+}*/
 
 .page-footer{
 	-webkit-box-shadow: inset 0px 141px 202px 24px rgba(0,0,0,0.52);
@@ -150,21 +150,21 @@ canvas {
 	}
 }
 
-.page-footer p span a {
+.page-footer p span  {
 	color: #dcdee2;
 	display: inline-block;
 	text-align: center;
-	padding: 5px;
+	padding: 15px;
 	/*font-size: 1em;*/
 	border-bottom: 2px solid rgba(0, 0, 0, 0);
 	text-decoration: none;
 	transition: border 1s;
 }
 
-.page-footer p span a:hover {
+/*.page-footer p span a:hover {
 	color: #fff;
 	border-bottom: 2px solid #dcdee2;
-}
+}*/
 
 .page-footer-nh{
     background: #134159;
