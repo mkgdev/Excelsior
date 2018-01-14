@@ -102,7 +102,7 @@ canvas {
 
 .countdowntimer ul li span {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @media (max-width: 488px){
