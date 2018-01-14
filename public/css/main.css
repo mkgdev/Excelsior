@@ -55,6 +55,17 @@ nav {
 	/*margin: auto;*/
 	width: 60%;
 }
+
+.landing-clock{
+	position: absolute;
+	/*top: 35%;*/
+	left: 50%;
+	transform: translateX(-50%);
+	margin: auto;
+	/*width: 100%;*/
+	padding: 0;
+	/*margin: 0;*/
+}
 @media only screen and (max-width: 600px){
 	.landing-img {
 		width: 90%;
@@ -251,4 +262,28 @@ canvas {
 .carousel-image {
 	height: 100%;
 	width: 100%;
+}
+
+.countdowntimer {
+  color: #dcdee2;
+  text-align: center;
+  position: relative;
+    z-index: 1;
+}
+
+.countdowntimer h1 {
+  font-weight: normal;
+}
+
+.countdowntimer ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdowntimer ul li span {
+  display: block;
+  font-size: 4.5rem;
 }
