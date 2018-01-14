@@ -89,6 +89,12 @@ canvas {
   font-size: 0.8em;
 }
 
+@media (max-width: 380px){
+	.countdowntimer {
+	  font-size: 0.5em;
+	}
+}
+
 .countdowntimer h1 {
   font-weight: normal;
 }
