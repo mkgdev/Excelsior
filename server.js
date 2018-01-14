@@ -7,21 +7,21 @@ var creds = require('./client/secret_client.json');
 //*********************************************************************************
 // Events docs
 //***************************************************************************
-var fast18 = new GoogleSpreadSheet('10F7fBLEx8R1SC-vnPwvmoPUzuzgA0aqdKoCEWOs1oJc');
-var datahack = new GoogleSpreadSheet('1K1mCBqxspSXDrJALEnYQDWnPmVbzAs7talwr2WkNJDs');
-var quidditch = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var simulate = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var siliconvalley = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var lazermaze = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var botzilla = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var robosoccer = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var lfr = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var codesafari = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var fast18 = new GoogleSpreadSheet('1V43sVSIw02fyEKAVX4k-8ZEdhVQnjCbwkAzzWiUoiFE');
+var datahack = new GoogleSpreadSheet('12uoeKxrVWIGNJJVBca9-i8cdNvbVTAmfFIPoPexwU4o');
+var quidditch = new GoogleSpreadSheet('1BqA0QemJMzsJ5WJ3OmxIrhWP8gyGoTmdOCar3yXw8_Q');
+var simulate = new GoogleSpreadSheet('1eGCTEUuiDQ8R6OAL5J6j1Q6mXw84Jy3Um2w3hH_pNww');
+var siliconvalley = new GoogleSpreadSheet('1N-xbj9-oev5uQOdbBt6hOzaL_4JGAJG7UoLnXQn_zpU');
+var lazermaze = new GoogleSpreadSheet('1BeUDaPDQRiBHVWvXztYsZeA5lvFmGWB9KXKurkAMcLY');
+var botzilla = new GoogleSpreadSheet('1rdnDk19swv6eQWXJvJ1O07IXXRx8NUYhj10T9cRBpH4');
+var robosoccer = new GoogleSpreadSheet('1DKo50hJflVvCThr5ct-9AugNDOObXhO_MThA0B-9y2k');
+var lfr = new GoogleSpreadSheet('1oKdlSAaQs81VGV4TQo0V7cMnT7Y6wquXFSeimH-ZAW4');
+var codesafari = new GoogleSpreadSheet('14q7bRS9YekmDEAWMAtdiQ80rBi5cITrWVWWi8kr3P-4');
 
-var quizzardz = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
-var crackCompany = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var quizzardz = new GoogleSpreadSheet('1m-7zpx2LnkFvuhX8uvO80MSiQgeV_poEpx2mtxl_nCs');
+var crackCompany = new GoogleSpreadSheet('1yx9OEU_x8rKLA0RdA1-A8RNk3XPPaKGztTbCceiIWZI');
 
-var mockstock = new GoogleSpreadSheet('1ChbfyrN_UJF_xXipmVBGm5SrIkWEVi4DO0PNZslzw84');
+var mockstock = new GoogleSpreadSheet('1lKiw4BKqp5JJR_uSbs6I13oRbQzVDm2M9YXPmOL9LDI');
 
 
 
@@ -519,7 +519,7 @@ app.post('/mockstock',function(req,res)
 app.listen(process.env.PORT||8000,function(req,res)
     {
 
-        console.log('serving starting on port 3000')
+        console.log('serving starting on port 8000')
     }
 
 );
