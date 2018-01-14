@@ -14,7 +14,7 @@ window.onload = function() {
     $("#loader").fadeOut(1000);
 
     $("#loader-ext").fadeOut(1000);
-   }, 3000);
+   }, 2000);
 
   
 };
