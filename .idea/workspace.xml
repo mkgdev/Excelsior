@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/css/events/js/ajax.js" afterPath="$PROJECT_DIR$/public/css/events/js/ajax.js" />
-      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/events/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="75">
               <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding />
             </state>
@@ -367,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104221000" />
+    <option name="totallyTimeSpent" value="104957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -802,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/events/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="75">
           <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding />
         </state>
