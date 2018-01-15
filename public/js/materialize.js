@@ -10,10 +10,8 @@
 window.onload = function() {
 
   setTimeout(function(){ 
-    
-    $("#loader").fadeOut(1000);
+    $("#back").fadeOut(1000);
 
-    $("#loader-ext").fadeOut(1000);
    }, 2000);
 
   

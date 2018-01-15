@@ -4,21 +4,139 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
- #loader{
-  background-color: white;
-  height: 100%;
-  width:100%;
-  position: fixed;
-  z-index:20000
-  }
+
+ #back{
+    
+  height:100%;
+ width:100%;
+ background:rgba(0, 0, 0, 1);
+ position:fixed;
+ left:0;
+ top:0;
+   z-index: 50008;
+}
+
+
+#loader{
+   
   
-  #loader-img{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%)
-  }
- 
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+   
+   
+}
+
+
+#loader li{
+   
+   list-style: none;
+   height:40px;
+   width: 10px;
+   background: aqua;
+   margin-right:5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+  display: inline-block;
+  
+   animation: scala 0.8s infinite alternate;
+}
+#loader li:nth-child(1)
+{
+  
+  
+  animation-delay: 0.1s
+      
+     
+}
+
+#loader li:nth-child(2)
+{
+   
+  animation-delay: 0.2s
+   
+   
+   
+}
+
+#loader li:nth-child(3)
+{
+   
+  animation-delay: 0.3s
+   
+   
+   
+}
+
+#loader li:nth-child(4)
+{
+   
+  animation-delay:0.4s
+   
+   
+   
+}
+
+#loader li:nth-child(5)
+{
+   
+  animation-delay: 0.5s
+   
+   
+}
+
+#loader li:nth-child(6)
+{
+   
+  animation-delay: 0.6s
+   
+   
+   
+}
+
+#loader li:nth-child(7)
+{
+   
+  animation-delay: 0.7s
+   
+   
+   
+}
+
+#loader li:nth-child(8)
+{
+   
+  animation-delay: 0.8s
+   
+   
+   
+}
+#loader li:nth-child(9)
+{
+   
+  animation-delay: 0.9s
+      
+   
+   
+   
+}
+
+
+
+
+
+@keyframes scala{
+ 0%{ transform:scaleY(1)}
+   25%{ transform: scaleY(1)}
+   50%{ transform: scaleY(1)}
+   75%{ transform: scaleY(1)}
+ 100% { transform: scaleY(3)}
+   
+}
+
+
  #loader-ext{
   background-color: black;
   height: 130%;
