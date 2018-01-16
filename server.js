@@ -220,7 +220,7 @@ app.post('/siliconvalley',function(req,res)
 
 );
 
-app.post('/lazermaze',function(req,res)
+app.post('/lasermaze',function(req,res)
     {
 
         var data = req.body;
