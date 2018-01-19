@@ -35,3 +35,6 @@ ol li {
 .modal-open .modal{
     z-index: 10000;
 }
+.close-btn{
+    margin: 0 auto;
+}
