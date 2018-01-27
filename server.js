@@ -506,7 +506,13 @@ app.post('/mockstock',function(req,res)
 );
 
 
+app.get('/form',function(req,res)
+    {
+        res.render('form');
 
+    }
+
+);
 
 //***********************
 
