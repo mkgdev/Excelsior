@@ -8,7 +8,8 @@ var creds = require('./client/secret_client.json');
 // Events docs
 //***************************************************************************
 var fast18 = new GoogleSpreadSheet('1V43sVSIw02fyEKAVX4k-8ZEdhVQnjCbwkAzzWiUoiFE');
-var datahack = new GoogleSpreadSheet('12uoeKxrVWIGNJJVBca9-i8cdNvbVTAmfFIPoPexwU4o');
+// var datahack = new GoogleSpreadSheet('12uoeKxrVWIGNJJVBca9-i8cdNvbVTAmfFIPoPexwU4o');
+var datahack    = new GoogleSpreadSheet('12IeG9ej3A_Es4wbia_-ecpRl43I-6qm97YymBn0Ld7k');
 var quidditch = new GoogleSpreadSheet('1BqA0QemJMzsJ5WJ3OmxIrhWP8gyGoTmdOCar3yXw8_Q');
 var simulate = new GoogleSpreadSheet('1eGCTEUuiDQ8R6OAL5J6j1Q6mXw84Jy3Um2w3hH_pNww');
 var siliconvalley = new GoogleSpreadSheet('1N-xbj9-oev5uQOdbBt6hOzaL_4JGAJG7UoLnXQn_zpU');
@@ -135,12 +136,13 @@ app.post('/datahack',function(req,res)
 
         var data = req.body;
 
+
         // Authenticate with the Google Spreadsheets API.
         datahack.useServiceAccountAuth(creds, function (err) {
 
             // Get all of the rows from the spreadsheet.
 
-            datahack.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+            datahack.addRow(1, { Team_Name: data.team_name,Team_Leader : data.team_leader, Member_2: data.member_2,  Email_Address: data.email ,Contact_No: data.contactno,Year_Leader:data.year_1,Year_Member2:data.year_2}, function(err) {
                 if(err) {
                     throw err;
                 }
