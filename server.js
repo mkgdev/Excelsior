@@ -65,7 +65,7 @@ app.get('/events',function(req,res)
 app.get('/sponsors',function(req,res)
     {
 
-        res.render("coming_soon");
+        res.render("sponsors");
     }
 
 );
