@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/team.ejs" afterPath="$PROJECT_DIR$/views/team.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="team.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/team.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="196" column="39" lean-forward="true" selection-start-line="196" selection-start-column="39" selection-end-line="196" selection-end-column="39" />
+            <state relative-caret-position="3332">
+              <caret line="196" column="39" lean-forward="false" selection-start-line="196" selection-start-column="39" selection-end-line="196" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -71,36 +69,9 @@
       <file leaf-file-name="events.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/events.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="17">
               <caret line="1080" column="99" lean-forward="false" selection-start-line="1080" selection-start-column="99" selection-end-line="1080" selection-end-column="99" />
-              <folding>
-                <element signature="e#18477#18484#1#HTML" expanded="true" />
-                <element signature="e#20915#20922#1#HTML" expanded="true" />
-                <element signature="e#24414#24421#1#HTML" expanded="true" />
-                <element signature="e#27201#27208#1#HTML" expanded="true" />
-                <element signature="e#30156#30163#1#HTML" expanded="true" />
-                <element signature="e#33254#33261#1#HTML" expanded="true" />
-                <element signature="e#36518#36525#1#HTML" expanded="true" />
-                <element signature="e#39929#39936#1#HTML" expanded="true" />
-                <element signature="e#43483#43490#1#HTML" expanded="true" />
-                <element signature="e#47243#47250#1#HTML" expanded="true" />
-                <element signature="e#51135#51142#1#HTML" expanded="true" />
-                <element signature="e#55198#55205#1#HTML" expanded="true" />
-                <element signature="e#59372#59379#1#HTML" expanded="true" />
-                <element signature="e#63467#63474#1#HTML" expanded="true" />
-                <element signature="e#66086#66093#1#HTML" expanded="true" />
-                <element signature="e#69374#69381#1#HTML" expanded="true" />
-                <element signature="e#72210#72217#1#HTML" expanded="true" />
-                <element signature="e#74969#74976#1#HTML" expanded="true" />
-                <element signature="e#77716#77723#1#HTML" expanded="true" />
-                <element signature="e#80917#80924#1#HTML" expanded="true" />
-                <element signature="e#83506#83513#1#HTML" expanded="true" />
-                <element signature="e#86012#86019#1#HTML" expanded="true" />
-                <element signature="e#88685#88692#1#HTML" expanded="true" />
-                <element signature="e#91437#91444#1#HTML" expanded="true" />
-                <element signature="e#94275#94282#1#HTML" expanded="true" />
-                <element signature="e#96934#96941#1#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -249,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,6 +282,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,12 +354,13 @@
       <workItem from="1517901018811" duration="15000" />
       <workItem from="1518067626504" duration="8270000" />
       <workItem from="1518163532034" duration="1740000" />
-      <workItem from="1518165659099" duration="1540000" />
+      <workItem from="1518165659099" duration="1977000" />
+      <workItem from="1518167726282" duration="764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140175000" />
+    <option name="totallyTimeSpent" value="141376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -771,44 +743,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/team.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="196" column="39" lean-forward="true" selection-start-line="196" selection-start-column="39" selection-end-line="196" selection-end-column="39" />
+        <state relative-caret-position="3332">
+          <caret line="196" column="39" lean-forward="false" selection-start-line="196" selection-start-column="39" selection-end-line="196" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/events.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="17">
           <caret line="1080" column="99" lean-forward="false" selection-start-line="1080" selection-start-column="99" selection-end-line="1080" selection-end-column="99" />
-          <folding>
-            <element signature="e#18477#18484#1#HTML" expanded="true" />
-            <element signature="e#20915#20922#1#HTML" expanded="true" />
-            <element signature="e#24414#24421#1#HTML" expanded="true" />
-            <element signature="e#27201#27208#1#HTML" expanded="true" />
-            <element signature="e#30156#30163#1#HTML" expanded="true" />
-            <element signature="e#33254#33261#1#HTML" expanded="true" />
-            <element signature="e#36518#36525#1#HTML" expanded="true" />
-            <element signature="e#39929#39936#1#HTML" expanded="true" />
-            <element signature="e#43483#43490#1#HTML" expanded="true" />
-            <element signature="e#47243#47250#1#HTML" expanded="true" />
-            <element signature="e#51135#51142#1#HTML" expanded="true" />
-            <element signature="e#55198#55205#1#HTML" expanded="true" />
-            <element signature="e#59372#59379#1#HTML" expanded="true" />
-            <element signature="e#63467#63474#1#HTML" expanded="true" />
-            <element signature="e#66086#66093#1#HTML" expanded="true" />
-            <element signature="e#69374#69381#1#HTML" expanded="true" />
-            <element signature="e#72210#72217#1#HTML" expanded="true" />
-            <element signature="e#74969#74976#1#HTML" expanded="true" />
-            <element signature="e#77716#77723#1#HTML" expanded="true" />
-            <element signature="e#80917#80924#1#HTML" expanded="true" />
-            <element signature="e#83506#83513#1#HTML" expanded="true" />
-            <element signature="e#86012#86019#1#HTML" expanded="true" />
-            <element signature="e#88685#88692#1#HTML" expanded="true" />
-            <element signature="e#91437#91444#1#HTML" expanded="true" />
-            <element signature="e#94275#94282#1#HTML" expanded="true" />
-            <element signature="e#96934#96941#1#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
