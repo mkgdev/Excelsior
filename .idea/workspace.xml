@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae0f26b-9bf6-4393-8a82-dee46d749531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/events.ejs" afterPath="$PROJECT_DIR$/views/events.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="events.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/events.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1726" column="44" lean-forward="false" selection-start-line="1726" selection-start-column="44" selection-end-line="1726" selection-end-column="44" />
+            <state relative-caret-position="201">
+              <caret line="1455" column="51" lean-forward="false" selection-start-line="1455" selection-start-column="51" selection-end-line="1455" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -79,8 +80,8 @@
       <file leaf-file-name="sponsors.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/sponsors.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+            <state relative-caret-position="306">
+              <caret line="146" column="44" lean-forward="true" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -120,7 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>robowar</find>
       <find>CRACK THE</find>
       <find>mockstock</find>
       <find>quidditch</find>
@@ -146,10 +146,11 @@
       <find>facebook</find>
       <find>h6</find>
       <find>font</find>
-      <find>auto</find>
       <find>exampleModalLongTitle</find>
       <find>@media</find>
       <find>.png</find>
+      <find>auto</find>
+      <find>botzilla</find>
     </findStrings>
     <replaceStrings>
       <replace>quidditch</replace>
@@ -231,8 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +293,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,12 +372,13 @@
       <workItem from="1518182572957" duration="1154000" />
       <workItem from="1518184867412" duration="25000" />
       <workItem from="1518198579182" duration="1399000" />
-      <workItem from="1518200267549" duration="99000" />
+      <workItem from="1518200267549" duration="285000" />
+      <workItem from="1518242960118" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144248000" />
+    <option name="totallyTimeSpent" value="145644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -761,16 +763,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/sponsors.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+        <state relative-caret-position="306">
+          <caret line="146" column="44" lean-forward="true" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/events.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1726" column="44" lean-forward="false" selection-start-line="1726" selection-start-column="44" selection-end-line="1726" selection-end-column="44" />
+        <state relative-caret-position="201">
+          <caret line="1455" column="51" lean-forward="false" selection-start-line="1455" selection-start-column="51" selection-end-line="1455" selection-end-column="51" />
           <folding />
         </state>
       </provider>
