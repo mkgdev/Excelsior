@@ -24,6 +24,8 @@ var crackCompany = new GoogleSpreadSheet('1yx9OEU_x8rKLA0RdA1-A8RNk3XPPaKGztTbCc
 
 var mockstock = new GoogleSpreadSheet('1lKiw4BKqp5JJR_uSbs6I13oRbQzVDm2M9YXPmOL9LDI');
 
+var calculithium = new GoogleSpreadSheet('1XqjzccWiDFE8GqvnT96mWuSOiyEbH8eJDx8QEgBgrQI');
+
 
 
 
@@ -506,6 +508,30 @@ app.post('/mockstock',function(req,res)
 
 
 );
+
+app.post('/calculithium',function(req,res)
+    {
+
+        var data = req.body;
+
+        // Authenticate with the Google Spreadsheets API.
+        calculithium.useServiceAccountAuth(creds, function (err) {
+
+            // Get all of the rows from the spreadsheet.
+
+            calculithium.addRow(1, { Full_Name: data.fullname, Email_Address: data.email ,Contact_No: data.contactno,College: data.college,Year:data.year,Course:data.course}, function(err) {
+                if(err) {
+                    throw err;
+                }
+                res.redirect('/events');
+            });
+        });
+    }
+
+
+);
+
+
 
 
 app.get('/form',function(req,res)

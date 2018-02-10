@@ -49,11 +49,23 @@ nav {
 }
 .landing-img{
 	position: absolute;
-	top: 35%;
+	top: 28%;
 	left: 50%;
 	transform: translateX(-50%);
 	/*margin: auto;*/
 	width: 60%;
+}
+
+@media (max-width: 439px) {
+	.landing-img{
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translateX(-50%);
+		/*margin: auto;*/
+		width: 60%;
+	}
+
 }
 
 .landing-clock{
@@ -354,3 +366,4 @@ canvas {
 	margin-top: 20px;
 
 }
+
