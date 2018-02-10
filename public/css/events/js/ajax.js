@@ -13,7 +13,7 @@ $('.submit-event').on('click', function(){
 
     if(!(data.fullname && data.email && data.contactno && data.college && data.year && course))
     {
-        alert('Registration Unsuccessfull! All fields are mandatory');
+        alert('Registration is Unsuccessfull! All fields are mandatory');
     }
     else{
         var ajaxRequest = $.ajax({
@@ -26,7 +26,7 @@ $('.submit-event').on('click', function(){
 
         ajaxRequest.done(function(data) {
             $('.close').click();
-            alert('Registration was successful');
+            alert('Registration is successful');
             $('.'+url).find("input[type=text]").val("");
             $('.'+url).find("input[type=tel]").val("");
             $('.'+url).find("input[type=email]").val("");
@@ -36,7 +36,7 @@ $('.submit-event').on('click', function(){
 
         ajaxRequest.fail(function(data) {
             console.dir(data);
-            alert('Registration was unsuccessful. Try again!');
+            alert('Registration is unsuccessful. Try again!');
         });
     }
 
@@ -59,7 +59,7 @@ $('.submit-event-datahack').on('click',function(){
     };
     if(!(data.team_name && data.team_leader && data.email && data.contactno && data.year_1 ))
     {
-        alert("Registration Unsuccessfull! '*' Marked fields are mandatory");
+        alert("Registration is Unsuccessfull! '*' Marked fields are mandatory");
     }
     else {
         var ajaxRequest = $.ajax({
@@ -71,7 +71,7 @@ $('.submit-event-datahack').on('click',function(){
         ajaxRequest.done(function(data) {
             console.log('yo');
             $('.close').click();
-            alert('Registration was successful');
+            alert('Registration is successful');
             $('.'+url).find("input[type=text]").val("");
             $('.'+url).find("input[type=tel]").val("");
             $('.'+url).find("input[type=email]").val("");
@@ -81,7 +81,7 @@ $('.submit-event-datahack').on('click',function(){
 
         ajaxRequest.fail(function(data) {
             console.dir(data);
-            alert('Registration was unsuccessful. Try again!');
+            alert('Registration is unsuccessful. Try again!');
         });
 
     }
